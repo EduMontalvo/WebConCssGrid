@@ -35,7 +35,7 @@ header {
   display: flex;
   position: sticky;
   flex-direction: column;
-  background-color: #0AF794;
+  background-color: #999986;
   justify-content: space-between;
   padding: 1rem 5rem;
   align-items: center;
@@ -45,7 +45,7 @@ header {
 
 header>p {
   font-size: 2rem;
-  color: rgb(0, 0, 255);
+  color: #fff;
   font-weight: 800;
   cursor: pointer;
 }
@@ -54,7 +54,6 @@ aside {
   margin-top: 1rem;
   grid-area: aside;
   border-radius: 0.5rem;
-  color: rgb(0, 0, 255);
   padding: 2rem;
   border: 1px solid aliceblue;
   background-color: lightyellow;
@@ -128,6 +127,8 @@ nav a {
   font-size: 1rem;
   cursor: pointer;
   margin-right: 10px;
+  color: #fff;
+  font-weight: bold;
 }
 .Tarjeta1{
   grid-area: Tarjeta1;
