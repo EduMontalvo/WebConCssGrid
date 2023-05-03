@@ -123,12 +123,16 @@ nav {
   flex-direction: row;
 }
 
-nav a {
+nav a{
   font-size: 1rem;
   cursor: pointer;
   margin-right: 10px;
   color: #fff;
   font-weight: bold;
+}
+nav a:hover{
+  
+  border-bottom: 1px solid #fff;
 }
 .Tarjeta1{
   grid-area: Tarjeta1;
